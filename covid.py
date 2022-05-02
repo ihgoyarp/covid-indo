@@ -8,6 +8,3 @@ parse_json = json.loads(data)
 
 active_case = parse_json['update']['harian']
 print(json.dumps(parse_json, indent=4))
-
-
-
